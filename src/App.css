@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-inner{
+    width: 100%;
+    max-height: 1111px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon-box{
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align:'center';
+    animation-delay:'200ms'
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contacts {
+    display: flex;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.nombre {
+    color: white;
+    font-family: system-ui;
+    margin-left: auto;
+}
+html {
+    height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+    min-height: 100%;
 }
+/* EMPIEZO A TOQUETEAR CSS PARA EL RESPONSIVE*/
+
+.img-fluid {
+    padding-top: 40px;
+}
+  
+.container-down {
+    height: 25vh;
+    min-height: 80px;
+}
+
+
+
